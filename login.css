@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: sans-serif;
+        padding: 90px 20px 0;
+        background-image: url(imagenes/FUSER.jpg);
+        background-size: 100%;  
+        
+    }
+
+.header{
+    background-color: #58b977;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+    }
+    .logo  {
+        font-size: 20px; 
+        padding: 0 5px; 
+        line-height: 80px;   
+    }
+    .nav-menu{
+        display: flex;
+        margin-right: 20px;
+        list-style: none;
+    }
+    .nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    }
+    .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 10px;
+    
+    }
+    .nav-menu-link:hover{
+    background-color: rgb(20, 148, 26);
+    transition: 0.5s;
+    }
+    
+    /*RESPONSIVE FORM*/
+@media screen and (max-width:750px){
+    html{
+font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:580px){
+    html{
+font-size: 10px;
+    }
+
+    .container-form{
+flex-direction: column;
+height: auto;
+    }
+.information{
+width: 100%;
+padding: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 0px;
+}  
+.form-information{
+width: 100%;
+padding: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+
+}  
+}
+
+body2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    }
+   
+    .container-form{
+        border-radius: 20px;
+        box-shadow: 0 5px 7px rgba(0, 0, 0, .3);
+        display: flex;
+        height: 300px;
+        max-width: 600px;
+        transition: all 2s ease;
+        margin: 10px;    
+        }
+        .form-information {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: rgb(255, 255, 255);
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;        
+        }
+        .form-information-childs{
+            padding: 0 20px;
+        }
+        .form-information-childs h2{
+            color: #58b977;
+            font-size: 1.5rem;
+          }
+          .form-information-childs h3 {
+            color: #299e4e;
+            margin: 5px 50px;
+           width: 150px;
+           }
+           .form {
+            margin: 20px 0 0 0;
+            }
+            .form label {
+                display: flex;
+                margin-bottom: 15px;
+                border-radius: 20px;
+                align-items: center;
+                padding: 0 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+               }
+               .form label input{
+                width: 100%;
+                padding: 10px;
+                background-color: rgb(255, 255, 255);
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                color: rgb(20, 143, 51);
+                }
+                .form input[type="submit"]{
+                    background-color: #209253;
+                    color:#fff;
+                    border-radius: 20px;
+                    border: none;
+                    padding: 10px 15px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+                 }
+                 .form input[type="submit"]:hover {
+                    background-color: #03330c;
+                 }
+                 .information{
+                    width: 70%;
+                    display: flex;   
+                    align-items: center;   
+                   
+                    border-top-left-radius: 20%;
+                    border-bottom-left-radius: 20px;
+                  }
+                  .info-childs{
+                    width: 100%;
+                    padding: 0 30px;
+                    }
+    
+                

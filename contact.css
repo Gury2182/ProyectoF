@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        font-family: sans-serif;
+        padding: 90px 20px 0;
+        background-image: url(imagenes/FUSER.jpg);
+        background-size: 100%;  
+        
+    }
+
+.header{
+    background-color: #58b977;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+    }
+    .logo  {
+        font-size: 20px; 
+        padding: 0 5px; 
+        line-height: 80px;   
+    }
+    .nav-menu{
+        display: flex;
+        margin-right: 20px;
+        list-style: none;
+    }
+    .nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+    }
+    .nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 10px;
+    
+    }
+    .nav-menu-link:hover{
+    background-color: rgb(20, 148, 26);
+    transition: 0.5s;
+    }
+    
+    /*RESPONSIVE FORM*/
+@media screen and (max-width:750px){
+    html{
+font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:580px){
+    html{
+font-size: 10px;
+    }
+}
+
+body2{
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 85vh;
+}
+
+.form-content {
+    
+background-color: rgb(255, 255, 255);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px;
+width: 400px;
+border-radius: 25px;
+}
+
+.form-content h2{
+color: #58b977;
+margin-bottom: 25px;
+}
+
+.form{
+display: flex;
+flex-direction: column;
+}
+
+.form label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    
+}
+
+.form label input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: #58b977;
+}
+.form label textarea {
+width: 100%;
+border: none;
+outline: none;
+color: #58b977;
+}
+.form input[type="submit"]{
+    background-color: #209253;
+    color:#fff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+ }
+ .form input[type="submit"]:hover {
+    background-color: #03330c;
+ }
+
+ @media(max-width: 991px){
+body{
+padding: 30px;
+}
+.form-content{
+width: 100%;
+}
+
+form{
+width: 100%;
+
+}
+
+ }
+
+
